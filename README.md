@@ -23,6 +23,7 @@ Results of the Writing your first Django app series on djangoproject.com, as of 
 
 ```bash
 apt-get install python3 python3-pip
+python3 -m venv myenv
 pip install pipenv
 pipenv install --three
 cd djangotutorial/
