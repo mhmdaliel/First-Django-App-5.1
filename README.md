@@ -24,10 +24,8 @@ Results of the Writing your first Django app series on djangoproject.com, as of 
 ```bash
 apt-get install python3 python3-pip
 pip install pipenv
-cd djangotutorial/
 pipenv install --three
-pipenv shell
-cd mysite
+cd djangotutorial/
 python manage.py runserver
 Go to : http://127.0.0.1:8000/admin/
 The default login and password for the admin site is admin:admin
